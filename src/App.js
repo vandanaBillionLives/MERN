@@ -13,9 +13,7 @@ export default class App extends React.Component {
     render() {
 
         return (
-            <div style={{
-               c
-            }}>
+            <div style={c}>
                 Hello world
        
             </div>
