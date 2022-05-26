@@ -14,7 +14,15 @@ export default class StateVariable extends React.Component {
         })
     }
     onChange = (e) => {
-        this.setState({ colourvalue: e.target.value });
+        this.setState({
+            bg: e.target.value,
+            
+        });
+    }
+    onChange1 = (e) => {
+        this.setState({
+            colourvalue: e.target.value  
+        });
     }
     render() {
         return (
@@ -24,8 +32,16 @@ export default class StateVariable extends React.Component {
                 <input
                     name="myname"
                     id="myid"
+                    placeholder="Enter the colour"
                     onChange={this.onChange}
-   
+                />
+                <br/>
+                <input
+                    name="myname"
+                    id="myid"
+                    placeholder="Enter the colour and click"
+                    onChange={this.onChange1}
+
                 />
                 <button onClick={this.handleClick}>Click me</button>
             </div>
