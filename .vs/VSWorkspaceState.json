@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\component"
   ],
+  "SelectedNode": "\\src\\component\\statevariable.js",
   "PreviewInSolutionExplorer": false
 }
