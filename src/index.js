@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ConditionalRendering from "./component/ConditionalRendering";
+import Fetcher from "./component/Fetcher";
+import Login from "./component/Login";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-        <ConditionalRendering />
+        <Login/>
   </React.StrictMode>
 );
 
